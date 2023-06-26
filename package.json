@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/AndreiGutnik/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "Andrii Hutnyk <hutnyk2019@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/AndreiGutnik/goit-js-hw-08/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.20.1",
