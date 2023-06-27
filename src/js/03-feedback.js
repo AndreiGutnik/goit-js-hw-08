@@ -31,5 +31,13 @@ function onSubmit(evt) {
   evt.preventDefault();
 
   evt.currentTarget.reset();
+  const savedInputs = JSON.parse(localStorage.getItem(STORAGE_KEY));
+  if (!savedInputs) {
+    alert(
+      'The form is not filled! Please fill in all fields and try sending again'
+    );
+    return;
+  }
+  console.log(JSON.parse(localStorage.getItem(STORAGE_KEY)));
   localStorage.removeItem(STORAGE_KEY);
 }
